@@ -22,3 +22,25 @@ This is a simple boilerplate to use when starting a new App in React. (This tuto
     ```sh 
     npm start
     ```
+
+## Add New Project to Github
+
+1. Check your existing remotes
+    ```shell
+    git remote -v
+    > origin  git@github.com:USERNAME/React_Boilerplate.git (fetch)
+    > origin  git@github.com:USERNAME/React_Boilerplate.git (push)
+    ```
+
+2. Change the remote
+    ```sh
+    git remote set-url origin https://github.com/USERNAME/NEW REPOSITORY.git
+    ```
+
+3. Verify the remote has been changed
+
+    ```sh 
+    git remote -v
+    > origin  git@github.com:USERNAME/NEW REPOSITORY.git (fetch)
+    > origin  git@github.com:USERNAME/NEW REPOSITORY.git (push)
+    ```
